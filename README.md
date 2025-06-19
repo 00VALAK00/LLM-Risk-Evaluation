@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-### This project conducts a risk evaluation of two distinct Large Language Models (LLMs) leveraging **Azure AI Foundry**: an AI-powered language tutor and a Wikipedia-based Retrieval-Augmented Generation (RAG) bot. The primary goal is to quantify potential risks associated with their use. The primary LLM used is a quantized llama.cpp model: PHI:4b
+* This project conducts a risk evaluation of two distinct Large Language Models (LLMs) leveraging **Azure AI Foundry**: an AI-powered language tutor and a Wikipedia-based Retrieval-Augmented Generation (RAG) bot. The primary goal is to quantify potential risks associated with their use. The primary LLM used is a quantized llama.cpp model: PHI:4b
 ---
 
 ## Objectives
