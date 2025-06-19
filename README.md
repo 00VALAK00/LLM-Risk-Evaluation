@@ -109,7 +109,7 @@ This evaluation reveals significant risks across both tested LLM systems:
 ---
 
 ## Figures
-![Alt text](notebooks\Jailbreak_testing\images\jailbreak_attempt_counts.png")
+![Alt text]([notebooks\Jailbreak_testing\images\jailbreak_attempt_counts.png](https://github.com/00VALAK00/LLM-Risk-Evaluation/blob/main/notebooks/Jailbreak_testing/images/jailbreak_attempt_counts.png)")
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src=""notebooks\Jailbreak_testing\images\jailbreak_attempt_counts.png"" alt="Description of Image 1" width="300">
