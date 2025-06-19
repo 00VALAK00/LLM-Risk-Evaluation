@@ -118,7 +118,7 @@ This evaluation reveals significant risks across both tested LLM systems:
       <br>Figure 10: RAG Groundedness Distribution
     </td>
     <td style="text-align: center; padding: 10px;">
-      <img src="images/figure11.png" alt="RAG Relevance Distribution" width="400">
+      <img src="notebooks/Jailbreak_testing/images" alt="RAG Relevance Distribution" width="400">
       <br>Figure 11: RAG Relevance Distribution
     </td>
   </tr>
