@@ -108,9 +108,7 @@ This evaluation reveals significant risks across both tested LLM systems:
 ---
 
 ## Figures
-![Figure 7: System prompt for the AI language tutor](notebooks/Jailbreak_testing/images/jailbreak_attempt_counts.png)
-
-
+### AI Language Tutor Eval Results:
 <table>
    <tr>
    <td style="text-align: center; padding: 10px;">
@@ -132,3 +130,20 @@ This evaluation reveals significant risks across both tested LLM systems:
     </td>
   </tr>
 </table>
+
+### Wikipedia RAG chatbot Eval Results: 
+<table>
+   <tr>
+   <td style="text-align: center; padding: 10px;">
+      <img src="notebooks/Rag-performance/images/Screenshot 2025-06-19 184529.png" alt="RAG Groundedness Distribution" width="400">
+    </td>
+    <td style="text-align: center; padding: 10px;">
+      <img src="notebooks/Rag-performance/images/groundedness.png" alt="RAG Groundedness Distribution" width="400">
+    </td>
+    <td style="text-align: center; padding: 10px;">
+      <img src="notebooks/Rag-performance/images/relevance.png" alt="RAG Relevance Distribution" width="400">
+    </td>
+   </tr>
+  
+</table>
+
