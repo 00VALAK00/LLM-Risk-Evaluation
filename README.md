@@ -30,7 +30,6 @@ This analysis identifies, assesses, and measures specific risk metrics to provid
 1.  **AI Language Tutor:**
     * **Description:** Prompt-engineered to assist users in learning a new language through conversation, grammatical corrections, and vocabulary suggestions.
     * **Primary Interaction:** Conversational and educational.
-    * **(See Figure 7: System prompt for the AI language tutor)**
 
 2.  **Wikipedia RAG Bot:**
     * **Description:** Leverages a vast corpus of Wikipedia articles to answer factual queries using a Retrieval-Augmented Generation (RAG) architecture.
@@ -109,7 +108,7 @@ This evaluation reveals significant risks across both tested LLM systems:
 ---
 
 ## Figures
-![Figure 7: System prompt for the AI language tutor]()
+![Figure 7: System prompt for the AI language tutor](notebooks/Jailbreak_testing/images/jailbreak_attempt_counts.png)
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src=""notebooks\Jailbreak_testing\images\jailbreak_attempt_counts.png"" alt="Description of Image 1" width="300">
   <img src="images/figure2.png" alt="Description of Image 2" width="300">
