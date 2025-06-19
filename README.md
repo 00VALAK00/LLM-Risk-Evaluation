@@ -2,8 +2,7 @@
 
 ## Project Overview
 
-This project focuses on a comprehensive risk evaluation of two distinct Large Language Models (LLMs): an AI-powered language tutor and a Wikipedia-based Retrieval-Augmented Generation (RAG) bot. The primary goal is to quantify potential risks associated with their use, providing a data-driven basis for implementing targeted mitigation strategies and ensuring responsible operation.
-The primary LLM used is a quantized llama.cpp model: PHI:4b
+This project focuses on a comprehensive risk evaluation of two distinct Large Language Models (LLMs): an AI-powered language tutor and a Wikipedia-based Retrieval-Augmented Generation (RAG) bot. The primary goal is to quantify potential risks associated with their use. The primary LLM used is a quantized llama.cpp model: PHI:4b
 ---
 
 ## Objectives
@@ -22,9 +21,6 @@ This analysis identifies, assesses, and measures specific risk metrics to provid
     * Self-harm content
     * Violent content
     * Sexual content
-
-By assigning quantitative values, we aim to establish a robust foundation for implementing effective mitigation strategies.
-
 ---
 
 ## Demonstration Setup
@@ -86,9 +82,9 @@ The evaluation involved running defined test suites against both models, with re
 
 The Wikipedia RAG Bot, despite understanding user intent, largely fails to ground its responses in source material, leading to factually unreliable and divergent answers. It is characterized as a "creative but untethered" system.
 
-* **Low Groundedness (See Figure 10: RAG Groundedness Distribution):** This is the most critical flaw, indicating the model fabricates information or relies on internal, potentially outdated knowledge, undermining its core RAG function.
-* **Medium to Good Relevance (See Figure 11: RAG Relevance Distribution):** The model successfully interprets queries and generates on-topic responses, suggesting effective retrieval and initial generation steps.
-* **Low Similarity Score with the Ground Truth (See Figure 12: RAG Output Similarity Distribution):** The generated text significantly differs from human-verified answers in wording, structure, and factual content, confirming a failure to use provided documents and producing factually inconsistent information.
+* **Low Groundedness: ** This is the most critical flaw, indicating the model fabricates information or relies on internal, potentially outdated knowledge, undermining its core RAG function.
+* **Medium to Good Relevance:** The model successfully interprets queries and generates on-topic responses, suggesting effective retrieval and initial generation steps.
+* **Low Similarity Score with the Ground Truth: ** The generated text significantly differs from human-verified answers in wording, structure, and factual content, confirming a failure to use provided documents and producing factually inconsistent information.
 
 ### AI Language Tutor Performance Summary
 
@@ -99,9 +95,9 @@ The AI language tutor is deemed dangerously flawed and fundamentally unsafe for 
 * **Profound Self-Harm Risk:** A most alarming **16.7% failure rate (50 out of 300 attempts)** in the self-harm category indicates a catastrophic safety alignment failure. This poses a direct and immediate risk, especially to users struggling with mental health.
     * **(See Figure 16: Self-harm Distribution)**
 * **Exposure to Harmful Content:** The presence of violent, sexual, and hate/unfairness content, even at lower rates, is unacceptable for an educational tool.
-    * **Violence:** **4.3%** (See Figure 19: Violence Content Distribution)
-    * **Sexual Content:** **3.3%** (See Figure 17: Sexual Content Distribution)
-    * **Hate and Unfairness:** **1.0%** (See Figure 18: Hate and Unfairness Distribution)
+    * **Violence:** **4.3%** 
+    * **Sexual Content:** **3.3%** 
+    * **Hate and Unfairness:** **1.0%** 
 
 ---
 
@@ -111,11 +107,6 @@ This evaluation reveals significant risks across both tested LLM systems:
 
 * **Wikipedia RAG Bot:** Excels at understanding query intent (Medium to Good Relevance) but critically fails in **Groundedness (Low)** and **Similarity to Ground Truth (Low)**, indicating a tendency to hallucinate and not rely on its source material. This makes it an "unreliable factual source."
 * **AI Language Tutor:** Poses severe safety concerns due to its susceptibility to **Jailbreaking (8.3% success rate)** and, critically, its ability to generate **Self-Harm related content (16.7% failure rate)**. It also exhibits concerning rates of **Violence (4.3%)**, **Sexual Content (3.3%)**, and **Hate/Unfairness (1.0%)** generation. This model is currently deemed unsafe for its intended educational purpose.
-
-These findings underscore the critical need for robust mitigation strategies to ensure the responsible and safe deployment of AI technologies.
-
 ---
 
 ## Figures
-
-* **Figure 7: System prompt for the AI
