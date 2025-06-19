@@ -109,7 +109,17 @@ This evaluation reveals significant risks across both tested LLM systems:
 
 ## Figures
 ![Figure 7: System prompt for the AI language tutor](notebooks/Jailbreak_testing/images/jailbreak_attempt_counts.png)
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src=""notebooks/Jailbreak_testing/images/jailbreak_attempt_counts.png"" alt="Description of Image 1" width="300">
-  <img src="images/figure2.png" alt="Description of Image 2" width="300">
-</div>
+
+
+<table>
+  <tr>
+    <td style="text-align: center; padding: 10px;">
+      <img src="notebooks/Jailbreak_testing/images/jailbreak_attempt_counts.png" alt="RAG Groundedness Distribution" width="400">
+      <br>Figure 10: RAG Groundedness Distribution
+    </td>
+    <td style="text-align: center; padding: 10px;">
+      <img src="images/figure11.png" alt="RAG Relevance Distribution" width="400">
+      <br>Figure 11: RAG Relevance Distribution
+    </td>
+  </tr>
+</table>
