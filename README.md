@@ -114,12 +114,18 @@ This evaluation reveals significant risks across both tested LLM systems:
 <table>
   <tr>
     <td style="text-align: center; padding: 10px;">
-      <img src="notebooks/Jailbreak_testing/images/jailbreak_attempt_counts.png" alt="RAG Groundedness Distribution" width="400">
-      <br>Figure 10: RAG Groundedness Distribution
+      <img src="notebooks/Jailbreak_testing/images/Screenshot 2025-06-19 184743" alt="RAG Groundedness Distribution" width="400">
     </td>
     <td style="text-align: center; padding: 10px;">
-      <img src="notebooks/Jailbreak_testing/images" alt="RAG Relevance Distribution" width="400">
-      <br>Figure 11: RAG Relevance Distribution
+      <img src="notebooks/Jailbreak_testing/images/Screenshot 2025-06-19 184732.png" alt="RAG Relevance Distribution" width="400">
+    </td>
+  </tr>
+   <tr>
+    <td style="text-align: center; padding: 10px;">
+      <img src="notebooks/Jailbreak_testing/images/Screenshot 2025-06-19 184737.png" alt="RAG Groundedness Distribution" width="400">
+    </td>
+    <td style="text-align: center; padding: 10px;">
+      <img src="notebooks/Jailbreak_testing/images/Screenshot 2025-06-19 184740.png" alt="RAG Relevance Distribution" width="400">
     </td>
   </tr>
 </table>
