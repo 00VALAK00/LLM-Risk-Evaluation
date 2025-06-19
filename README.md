@@ -110,6 +110,6 @@ This evaluation reveals significant risks across both tested LLM systems:
 ## Figures
 ![Figure 7: System prompt for the AI language tutor](notebooks/Jailbreak_testing/images/jailbreak_attempt_counts.png)
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src=""notebooks\Jailbreak_testing\images\jailbreak_attempt_counts.png"" alt="Description of Image 1" width="300">
+  <img src=""notebooks/Jailbreak_testing/images/jailbreak_attempt_counts.png"" alt="Description of Image 1" width="300">
   <img src="images/figure2.png" alt="Description of Image 2" width="300">
 </div>
